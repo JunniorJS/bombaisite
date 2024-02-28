@@ -1,0 +1,46 @@
+.bg-blue-700 {
+    --tw-bg-opacity: 1;
+    background-color: #3699c9;
+}
+
+.cianinho {
+    color: #3699c9;;
+}
+
+.borrinho {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.bordablue {
+    border-color: rgb(47,177,216,0.5);
+    border-inline-start-width: 1px;
+}
+
+@Media (max-width: 320px) {
+    .text-2xl {
+        font-size: 1.0rem;
+        line-height: 2rem;
+    }
+}
+
+@Media (max-width: 768px) {
+    #secao {
+        padding-top: 6rem;
+    }
+}
+
+
+@Media (min-width: 768px) {
+    #secao {
+        margin-top: 0rem;
+    }
+}
+
+@media (min-width: 1280px) {
+.xl\:grid-cols-6 {
+    grid-template-columns: repeat(4,minmax(0,1fr));
+}
+}
